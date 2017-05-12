@@ -1,0 +1,19 @@
+header {
+  background: #E88642;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
