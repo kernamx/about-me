@@ -1,19 +1,44 @@
 header {
+  float: left;
   background: #E88642;
-  color: #fff;
-  padding: 20px;
+  color: blue;
 }
 
 header h1 {
+  float: left;
   font-size: 50px;
-  margin-bottom: 20px;
+  margin: 50px auto;
 }
 
-p {
-  margin-bottom: 20px;
+div img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  transform: rotate(90deg);
 }
 
-h2 {
+main {
+  float: left;
+  background: blue;
+}
+
+h2 .me {
+  float: left;
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+h2 .place {
+  float: left;
+  outline: dotted 5px green;
+}
+
+ol li {
+  margin: auto;
+}
+
+ul img{
+
+  height: 300px;
+  width: 400px;
 }
