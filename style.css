@@ -1,13 +1,28 @@
+/*global styles*/
+
+body {
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*app styles*/
+
 header {
-  float: left;
+  height: 200px;
+  width: 960px;
+  margin: 0 auto;
   background: #E88642;
   color: blue;
 }
 
 header h1 {
-  float: left;
+  display: inline-block;
+  margin-left: 80px;
   font-size: 50px;
-  margin: 50px auto;
 }
 
 div img {
@@ -17,9 +32,16 @@ div img {
   transform: rotate(90deg);
 }
 
+nav ul li {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
 main {
-  float: left;
-  background: blue;
+  width: 960px;
+  background: #6EBEFF;
+  margin: 30px auto;
 }
 
 h2 .me {
@@ -30,11 +52,14 @@ h2 .me {
 
 h2 .place {
   float: left;
-  outline: dotted 5px green;
 }
 
 ol li {
   margin: auto;
+}
+
+ol li a {
+  color: black;
 }
 
 ul img{
