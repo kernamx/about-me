@@ -1,19 +1,69 @@
-header {
-  background: #E88642;
+/*global styles*/
+
+body {
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
   color: #fff;
-  padding: 20px;
+}
+
+/*app styles*/
+
+header {
+  height: 200px;
+  width: 960px;
+  margin: 0 auto;
+  background: #E88642;
+  color: blue;
 }
 
 header h1 {
+  display: inline-block;
+  margin-left: 80px;
   font-size: 50px;
-  margin-bottom: 20px;
 }
 
-p {
-  margin-bottom: 20px;
+div img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  transform: rotate(90deg);
 }
 
-h2 {
+nav ul li {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+main {
+  width: 960px;
+  background: #6EBEFF;
+  margin: 30px auto;
+}
+
+h2 .me {
+  float: left;
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+h2 .place {
+  float: left;
+}
+
+ol li {
+  margin: auto;
+}
+
+ol li a {
+  color: black;
+}
+
+ul img{
+
+  height: 300px;
+  width: 400px;
 }
