@@ -3,7 +3,8 @@
 var userScr = 0;
 
 var story = prompt('Was the developer in the Navy before?');
-if (story.toUpperCase() === 'YES' || story.toUpperCase() === 'Y'){
+
+if (story.toUpperCase() === 'YES' || story.toUpperCase() === 'Y') {
   console.log('Like the story?: ', story);
   alert('Thank You. Call me if you want to be friends.');
   userScr++;
@@ -13,7 +14,8 @@ if (story.toUpperCase() === 'YES' || story.toUpperCase() === 'Y'){
 }
 
 var vet = prompt('Is the developer a Vet?');
-if (vet.toUpperCase() === 'YES' || vet.toUpperCase() === 'Y'){
+
+if (vet.toUpperCase() === 'YES' || vet.toUpperCase() === 'Y') {
   console.log('vet: ', vet);
   alert('You and I will get along.');
   userScr++;
@@ -23,7 +25,8 @@ if (vet.toUpperCase() === 'YES' || vet.toUpperCase() === 'Y'){
 }
 
 var clean = prompt('Does the developer like to keep the area him clean?');
-if (clean.toUpperCase() === 'YES' || clean.toUpperCase() === 'Y'){
+
+if (clean.toUpperCase() === 'YES' || clean.toUpperCase() === 'Y') {
   console.log(clean);
   alert('Great! I like to keep my place nice and clean.  You and I will get along.');
   userScr++;
@@ -33,7 +36,8 @@ if (clean.toUpperCase() === 'YES' || clean.toUpperCase() === 'Y'){
 }
 
 var gamer = prompt('Is the developer a gamer?');
-if (gamer.toUpperCase() === 'YES' || gamer.toUpperCase() === 'Y'){
+
+if (gamer.toUpperCase() === 'YES' || gamer.toUpperCase() === 'Y') {
   console.log('gamer: ', gamer);
   alert('Yup, I am a gamer.');
   userScr++;
@@ -43,7 +47,8 @@ if (gamer.toUpperCase() === 'YES' || gamer.toUpperCase() === 'Y'){
 }
 
 var cook = prompt('Does the developer like to cook?');
-if (cook.toUpperCase() === 'YES'){
+
+if (cook.toUpperCase() === 'YES') {
   console.log('I like to eat, I like to cook.');
   alert('I like to eat, I like to cook.  It is fun to make new dishes.');
   userScr++;
@@ -55,16 +60,16 @@ if (cook.toUpperCase() === 'YES'){
 var number;
 var counter = 1;
 
-while (number !== 1000){
+while (number !== 1000) {
   number = prompt(('Lets play a little game.  If you get it right, you are on your way to a happy land.  What is the developer\'s age?'));
 
-  if (number < 1000){
+  if (number < 1000) {
     alert('You guessed it too low.  Go Up! Go Up!');
     counter++;
   } else if (number > 1000){
     alert('You guessed it too high.');
     counter++;
-  } else if (number === NaN || number === null){
+  } else if (number === NaN || number === null) {
     alert('Please enter a number.');
     counter++;
   } else {
@@ -73,6 +78,7 @@ while (number !== 1000){
     userScr++;
     break;
   }
+
   if (counter === 4){
     console.log(counter);
     alert('Nice try, better luck next time!');
@@ -94,14 +100,13 @@ for (var i = 0; i < country.length; i++){
     userScr++;
     break;
   }
-if (count === 6){
-  alert('Nice try.');
-  break;
-}
-if (!flag){
-  alert('HA HA HA, looks like you\'ll never get my bank account numbers.');
+  if (count === 6){
+    alert('Nice try.');
+    break;
+  }
+  if (!flag){
+    alert('HA HA HA, looks like you\'ll never get my bank account numbers.');
   }
 }
-
-var user = prompt('Please enter your name.')
+var user = prompt('Please enter your name.');
 alert('You got ' + userScr + 'out of 10 questions correct, ' + user + "." );
