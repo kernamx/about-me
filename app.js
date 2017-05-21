@@ -66,20 +66,20 @@ function cook() {
 }
 
 
-var number;
+var num;
 var counter = 1;
 
 function guess() {
-  while (number !== 1000){
-    number = prompt(('Lets play a little game.  If you get it right, you are on your way to a happy land.  What is the developer\'s age?'));
+  while (num !== 1000){
+    num = prompt(('Lets play a little game.  If you get it right, you are on your way to a happy land.  What is the developer\'s age?'));
 
-    if (number < 1000){
+    if (num < 1000){
       alert('You guessed it too low.  Go Up! Go Up!');
       counter++;
-    } else if (number > 1000){
+    } else if (num > 1000){
       alert('You guessed it too high.');
       counter++;
-    } else if (number === NaN || number === null){
+    } else if (num === isNaN || num === null){
       alert('Please enter a number.');
       counter++;
     } else {
@@ -121,8 +121,8 @@ function lived() {
     }
   }
 }
-var user = prompt('Please enter your name.')
-alert('You got ' + userScr + 'out of 10 questions correct, ' + user + "." );
+var user = prompt('Please enter your name.');
+alert('You got ' + userScr + 'out of 10 questions correct, ' + user + '.');
 
 navy();
 vet();
